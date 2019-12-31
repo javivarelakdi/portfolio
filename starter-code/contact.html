@@ -24,14 +24,18 @@
         <section class="section contact">
             <form id="contact" action="" method="post">
             <div class="container flex-row">
-                <div class="col-2 pl-1 pr-1">
-                    <input placeholder="Your name" type="text" tabindex="1" >
-                    <input placeholder="Your email" type="email" tabindex="1" required>
-                    <input placeholder="Your phone number" type="tel" tabindex="1">
+                <div class="col-2 pl-1 pr-1 flex-box">
+                    <fieldset class="col-fill" >
+                        <input placeholder="Your name" type="text" tabindex="1" >
+                        <input placeholder="Your email" type="email" tabindex="1" required>
+                        <input placeholder="Your phone number" type="tel" tabindex="1">
+                    </fieldset>
                 </div>
-                <div class="col-2 pl-1 pr-1"> 
-                    <textarea placeholder="Type your message here...." tabindex="1"></textarea>
-                    <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                <div class="col-2 pl-1 pr-1 flex-row"> 
+                    <fieldset class="col-fill">
+                        <textarea placeholder="Type your message here...." tabindex="1"></textarea>
+                        <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
                 </div>
             </div>
             </form>
