@@ -17,14 +17,18 @@ img{max-width: 100%;}
 header, body{font: 400 16px "Roboto", Helvetica, Arial, sans-serif;}  
 
 .button{
-    /* background: rgba(255,255,255,0.2); */
+    background-color: #333;
     width: 150px;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
     padding: 5px 0px;
-    margin: 0 auto;
     font-weight: bold;
     text-transform: uppercase;
-    /* color: #fff;*/
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.button:hover{
+    background-color: #ed564b;;
 }
 
 .flex-row {
@@ -64,6 +68,7 @@ header, body{font: 400 16px "Roboto", Helvetica, Arial, sans-serif;}
 .pb-2{padding-bottom: 2rem; }
 .pt-3{padding-top: 3rem; }
 .pb-3{padding-bottom: 3rem; }
+.mb-1{margin-bottom: 1rem;}
 
 
 .align-self-auto { align-self: auto; }
@@ -95,9 +100,6 @@ header, body{font: 400 16px "Roboto", Helvetica, Arial, sans-serif;}
 .fc-white{color: #fff;}
 .fc-grey{color: #aaa;}
 .fc-black{color: #333}
-
-.boder-top-red {border-top: 5px solid #f96b61;}
-.border-btm-grey {border-bottom: 1px solid #dfdfdf;}
 
 .ta-left { text-align: center; }
 .ta-right { text-align: center; }
