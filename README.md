@@ -14,7 +14,7 @@ Realizar un proyecto completo con HTML y CSS para afianzar lo aprendido en esta 
 
 ## Starter Code
 
-Contiene todos los archivos, imágenes y contenidos para mostrar las diferentes paáginas.
+Contiene todos los archivos, imágenes y contenidos para mostrar las diferentes páginas.
 - index.html
 - project.html
 - projects.html
